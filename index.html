@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقعي الاحترافي</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <div class="container header-container">
+      <div class="text">
+        <h1>موقعي الاحترافي</h1>
+        <p>تصميم عصري وتجربة مستخدم استثنائية باستخدام تقنيات الويب</p>
+        <button onclick="sayHello()">ابدأ الآن</button>
+      </div>
+      <div class="image">
+        <img src="https://undraw.co/api/illustrations/76e6e5db-e84e-4a9f-95d5-dc45b27a8b2c" alt="Hero Graphic" loading="lazy">
+      </div>
+    </div>
+  </header>
+
+  <section id="features" class="features">
+    <div class="container">
+      <h2><i class="fas fa-star"></i> المميزات</h2>
+      <div class="features-grid">
+        <div class="feature">
+          <img src="https://cdn-icons-png.flaticon.com/512/545/545682.png" alt="Responsive" loading="lazy">
+          <h3>متجاوب</h3>
+          <p>يعمل بسلاسة على كل الأجهزة والشاشات.</p>
+        </div>
+        <div class="feature">
+          <img src="https://cdn-icons-png.flaticon.com/512/753/753345.png" alt="Performance" loading="lazy">
+          <h3>سريع الأداء</h3>
+          <p>تحميل فوري وتجربة سلسة بفضل الكود النظيف.</p>
+        </div>
+        <div class="feature">
+          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="UX" loading="lazy">
+          <h3>تصميم جذاب</h3>
+          <p>واجهة مستخدم مدروسة بصريًا وسهلة الاستخدام.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container about-container">
+      <div class="text">
+        <h2><i class="fas fa-code"></i> عن المشروع</h2>
+        <p>
+          تم تصميم هذا الموقع باستخدام HTML، CSS، وJavaScript فقط، دون أي قوالب جاهزة. جميع الصور والرسومات تم اختيارها بعناية لتناسب هوية التصميم.
+        </p>
+      </div>
+      <div class="image">
+        <img src="https://undraw.co/api/illustrations/2135e1c0-f89c-4a8b-86ae-376fcfdf3b1c" alt="About Image" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2><i class="fas fa-envelope"></i> تواصل معي</h2>
+      <form onsubmit="submitForm(event)">
+        <input type="text" placeholder="اسمك" required>
+        <input type="email" placeholder="بريدك الإلكتروني" required>
+        <textarea placeholder="رسالتك" required></textarea>
+        <button type="submit">إرسال</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>جميع الحقوق محفوظة © 2025 | تم التصميم بعناية</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
